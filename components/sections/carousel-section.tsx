@@ -24,7 +24,7 @@ export function CarouselSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Built by creators, for creators.
+          Projects:
         </motion.h2>
       </div>
 

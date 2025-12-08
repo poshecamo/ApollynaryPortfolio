@@ -1,3 +1,5 @@
+import { InstagramSection } from "@/components/sections/instagram-section"
+
 import { LenisProvider } from "@/components/lenis-provider"
 import { CustomCursor } from "@/components/custom-cursor"
 import { HeroSection } from "@/components/sections/hero-section"
@@ -21,6 +23,7 @@ export default function Home() {
         <CarouselSection />
         <InsightsSection />
         <PricingSection />
+        <InstagramSection />
         <FooterSection />
       </main>
     </LenisProvider>
