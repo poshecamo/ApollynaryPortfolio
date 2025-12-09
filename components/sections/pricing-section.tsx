@@ -15,9 +15,15 @@ export function PricingSection() {
         >
           <h2 className="text-3xl md:text-5xl font-serif text-foreground">{"Let's Connect"}</h2>
           <p className="text-muted-foreground mt-4 max-w-lg mx-auto">
-            {
-              "Book a 30-minute consultation to discuss your tech marketing needs or explore collaboration opportunities."
-            }
+            Book a 30-minute consultation to discuss your tech marketing needs or explore collaboration opportunities.{" "}
+            <a 
+              href="https://calendly.com/polina-apollynary/30min" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-primary underline hover:text-primary/80 transition-colors"
+            >
+              Schedule here.
+            </a>
           </p>
         </motion.div>
 
