@@ -1,6 +1,6 @@
 import { InstagramSection } from "@/components/sections/instagram-section"
 import { HowIWorkSection } from "@/components/sections/how-i-work-section"
-
+import { Analytics } from "@vercel/analytics/next"
 import { LenisProvider } from "@/components/lenis-provider"
 import { CustomCursor } from "@/components/custom-cursor"
 import { HeroSection } from "@/components/sections/hero-section"
