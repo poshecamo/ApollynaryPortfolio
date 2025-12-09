@@ -52,7 +52,7 @@ export function InstagramSection() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-4">Follow My Journey</h2>
+          <h2 className="text-5xl md:text-6xl font-serif text-primary mb-4">Follow My Journey</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             See what I'm working on and sharing on Instagram
           </p>
@@ -90,7 +90,6 @@ export function InstagramSection() {
               height="600"
               frameBorder="0"
               scrolling="no"
-              allowtransparency
               className="rounded-lg"
             />
           </motion.div>

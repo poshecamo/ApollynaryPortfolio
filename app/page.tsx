@@ -1,4 +1,5 @@
 import { InstagramSection } from "@/components/sections/instagram-section"
+import { HowIWorkSection } from "@/components/sections/how-i-work-section"
 
 import { LenisProvider } from "@/components/lenis-provider"
 import { CustomCursor } from "@/components/custom-cursor"
@@ -10,6 +11,7 @@ import { CarouselSection } from "@/components/sections/carousel-section"
 import { InsightsSection } from "@/components/sections/insights-section"
 import { PricingSection } from "@/components/sections/pricing-section"
 import { FooterSection } from "@/components/sections/footer-section"
+import { FeaturedContentSection } from "@/components/sections/featured-content-section"
 
 export default function Home() {
   return (
@@ -19,12 +21,14 @@ export default function Home() {
         <HeroSection />
         <ManifestoSection />
         <FeaturesSection />
-        <ShowcaseSection />
-        <CarouselSection />
-        <InsightsSection />
+        <HowIWorkSection />
         <PricingSection />
+        {/* <ShowcaseSection /> */}
+        {/* <CarouselSection /> */}
+        <InsightsSection />
         <InstagramSection />
         <FooterSection />
+        {/* <FeaturedContentSection/> */}
       </main>
     </LenisProvider>
   )

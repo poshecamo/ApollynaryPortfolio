@@ -16,7 +16,7 @@ export function PricingSection() {
           <h2 className="text-3xl md:text-5xl font-serif text-foreground">{"Let's Connect"}</h2>
           <p className="text-muted-foreground mt-4 max-w-lg mx-auto">
             {
-              "I'm always interested in talking to tech founders, cybersecurity professionals, and companies that want to communicate better. Coffee chats welcome."
+              "Book a 30-minute consultation to discuss your tech marketing needs or explore collaboration opportunities."
             }
           </p>
         </motion.div>
